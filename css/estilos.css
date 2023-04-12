@@ -7,76 +7,19 @@
     font-family: "Poppins", sans-serif;
 }
 /* navbar y logo */
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f9d342;
-    padding: 20px;
-}
-header nav ul {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
 
-header nav ul li {
-    position: relative;
-    margin-right: 2em;
-}
-
-header nav ul li a {
-    text-decoration: none;
-}
-
-header nav ul li ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 200px;
-    height: auto;
-    background-color: #afeeee;
-    border: 1px solid #ccc;
-    z-index: 1;
-}
-
-header nav ul li:hover ul {
-    display: block;
-    z-index: 2;
-}
-
-header nav ul li ul li {
-    display: block;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 100px;
-    margin-right: 10px;
-}
-
-ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    height: 100px;
-}
 /* main */
 
 h1 {
     text-align: center;
 }
 
-/* pie de pagina */
-footer {
-    background-color: red;
-    text-align: center;
-
-    margin-top: 2em;
+.img {
+    height: 100px;
 }
+
+main{
+    min-height: 70vh;
+}
+
+/* pie de pagina */
