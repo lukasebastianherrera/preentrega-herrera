@@ -30,4 +30,15 @@ div{
     background: rgb(247,144,245);
     background: linear-gradient(0deg, rgba(247,144,245,1) 0%, rgba(140,164,235,1) 100%);
 }
-h1{}
+/* Footer siempre abajo */
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column  ;
+    min-height: 100%;
+}
+footer{
+    margin-top: auto;
+}
